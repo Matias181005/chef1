@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="../estilos/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <img  id="imagen_logo" src="/imagenes/logo.png" alt="Logo de mi página">
+
+    <header>
+        <div id="boxtitulo">Chef:Gastón Acurio</div>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(252, 252, 252)">
+            <a class="navbar-brand" href="#">Menú</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../assets/index_perfil.html">PERFÍL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galer">RECETAS</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../assets/index_login.html">Iniciar Secion</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/index.html">Registrate</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="contenido">
+            <div id="boxsubtitulo2">Biografia: Gastón Acurio</div>
+        <div id="parrafo">
+            <div id="subparrafo">
+                <h1>Gaston Acurio   </h1><p>Nació el 30 de octubre de 1967 en Lima, Perú.</p>
+                <img src="/imagenes/gaston3.png">
+            </div>
+            <div id="subparrafo">
+                <h1>Padres   </h1><p>Hijo del exsenador y exministro conservador Gastón Acurio Velarde y 
+                    de Jesusa Jaramillo Rázuri. Desde muy pequeño buscó refugio en la cocina de su casa 
+                    haciendo gran amistad con la cocinera, una señora llamada Juana.</p>
+                <img src="/imagenes/padres.png" alt="imagen no disponible">
+            </div><br>
+            <div id="subparrafo">
+                <h1>Estudios   </h1><p>Cursó estudios en el Colegio Santa María Marianistas de Lima.
+                    En 1987, se trasladó a España para iniciar sus estudios de Derecho en la Universidad 
+                    Complutense de Madrid por deseo de su familia. Ingresó en uno de los bufetes más 
+                    importantes de la ciudad para realizar prácticas, pero lo dejó en tan solo unas horas y, 
+                    en 1989, se inscribió en secreto en una escuela de hostelería a la que asiste durante dos 
+                    años.</p>
+                <img src="/imagenes/estudios.png" alt="imagen no disponible">
+            </div>
+            <div id="subparrafo">
+                <h1>Astrid Gutsche   </h1><p>En 1991, una vez que la familia acepta su vocación, se matriculó 
+                    en el Cordon Bleu de París. Por entonces conoció a Astrid Gutsche, francesa de origen 
+                    alemán, con quien se casó y con la que tuvo dos hijas. Al igual que él, había abandonado 
+                    sus estudios universitarios –ella, de Medicina– para dedicarse de lleno a la cocina, 
+                    principalmente, la pastelería.</p>
+                <img src="/imagenes/astrid.jpeg" alt="imagen no disponible">
+            </div>
+            <div id="subparrafo">
+                <h1>Astrid & Gastón   </h1><p>Después de terminar sus estudios y hacer prácticas por algún 
+                    tiempo en restaurantes europeos, se instalaron en el Perú y abrieron el 14 de julio de 
+                    1994 su primer restaurante, Astrid & Gastón, en la calle Cantuarias, Distrito de 
+                    Miraflores, en Lima, con una carta de cocina clásica francesa, aunque poco a poco fueron 
+                    introduciendo platos y productos peruanos. Con el tiempo, van experimentando con los 
+                    ingredientes autóctonos, inspirándose en las tradiciones locales reivindicando y 
+                    poniendo en valor la gastronomía peruana.</p>
+                <img src="/imagenes/astridgaston.jpg" alt="imagen no disponible">
+            </div>
+        </div>
+
+        <section id="galer">
+            <div id="boxsubtitulo2">Resetas Mas Conocidas</div>
+            <div id="box_im_perfil">
+                <div id="box_imagenperfil"><img src="/imagenes/pavo.jpg" alt="Imagen no disponible"
+                        id="imagen_perfil_ev"></div>
+                <div id="box_imagenperfil"><img src="/imagenes/lomo saltado.jpeg" alt="Imagen no disponible"
+                        id="imagen_perfil_ev"></div>
+                <div id="box_imagenperfil"><img src="/imagenes/aji de gallina.jpeg" alt="Imagen no disponible"
+                        id="imagen_perfil_ev"></div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+<script src="../funcion/funciones.js"></script>
+<input type="text" id="searchInput" placeholder="Buscar recetas..." oninput="searchRecipes()">
+  
+  <div id="recipes" style="display: none;">
+    <!-- Aquí se mostrarán las recetas -->
+    <div class="recipe" onclick="goToRecipePage('pavo.html')">Pavo</div>
+    <div class="recipe" onclick="goToRecipePage('lomo_saltado.html')">Lomo Saltado</div>
+    <div class="recipe" onclick="goToRecipePage('aji_de_gallina.html')">Aji de gallina</div>
+    <div class="recipe" onclick="goToRecipePage('pollo_a_la_brasa.html')">Receta pollo a la brasa</div>
+  </div>
+<footer>
+    <div class="pie_de_pagina">
+        <ul>
+          <li><a href="https://wa.me/tunumerodetelefono"><img src="/imagenes/whatsapp.png" alt="WhatsApp"></a></li>
+          <li><a href="https://telegram.me/tunombredeusuario"><img src="/imagenes/telegram.png" alt="Telegram"></a></li>
+          <li><a href="https://www.facebook.com/tunombredepagina"><img src="/imagenes/facebook.png" alt="Facebook"></a></li>
+          <li><a href="https://www.instagram.com/tunombredeusuario"><img src="/imagenes/instagram.png" alt="Instagram"></a></li>
+        </ul>
+      </div>
+</footer>
+
+</html>

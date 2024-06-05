@@ -1,0 +1,270 @@
+.contenido{
+    background: linear-gradient(to bottom, #6b4526, #dad9b5);
+    padding: 2% 2%;
+    align-items: center;
+}
+#imgane1{
+    align-items: center;
+}
+#cuadro{
+    display: flex;
+    padding: 2% 2%;
+}
+#boxtitulo{
+    text-align: center;
+    font-style: normal;
+    font-size: 300%;
+    color: rgb(0, 0, 0);
+    background-color: #D9CCC1;
+}
+#imagen_logo{
+    position: absolute; /* Posicionamiento absoluto */
+    top: 0; /* Se alinea en la parte superior del elemento padre */
+    left: 0; /* Se alinea en la parte izquierda del elemento padre */
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+}
+#box_cuadro1{
+    width: 48%;
+    padding: 2% 2%;
+    margin: 2% 2%;
+    text-align: left;
+}
+#boxtitulo1{
+    text-align: center;
+    font-style: normal;
+    font-size: 500%;
+    color: white;
+    font-weight: bold;
+}
+#boxsubtitulo1{
+    text-align: center;
+    font-style: normal;
+    font-size: 200%;
+    color: white;
+}
+#boxsubtitulo2{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 180%;
+    color: white;
+    border: 5px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #e49e77;
+}
+#box_tit{
+    color: black;
+    font-weight: bolder;
+    font-size: 70px;
+    text-align: center;
+    font-family: fantasy;
+    font-style: italic;
+}
+#box_form1{
+    background: linear-gradient(to bottom,#80a352, #dad9b5);
+    width: 50%;
+    padding: 2% 2%;
+    margin: 2% 2%;
+    text-align: left;
+    border: 1px solid #40352C;
+    border-radius: 25px;
+}
+#in_nombre,#in_apellido,#in_correo,#in_reg_contra,#in_conf_contra,#in_correo_lg,#in_contra_lg{
+    width: 100%;
+    padding: 2% 2%;
+    margin: 1% 2%;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+#in_gen,#in_fecha{
+    width: 22%;
+    height: 7%;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+label{
+    color: black;
+    font-size: 20px;
+    padding: 0% 1%;
+    font-weight: bold;
+    font-style: italic;
+    font-family: fantasy;
+}
+#boton_m{
+    text-align: center;
+    margin: 2% 4%;
+}
+#boton_confirmar,#boton_ingresar{
+    background-color: transparent;
+    color: black;
+    font-size: 120%;
+    width: 50%;
+    padding: 1% 1%;
+    margin: 1% 1%;
+    border: 1px solid black;
+    border-radius: 30px;
+
+}
+#boton_confirmar:hover{
+    background-color: black;
+    color:blue;
+}
+#boton_ingresar:hover{
+    background-color: black;
+    color:blue;
+}
+#boton_tengo{
+    font-size: 120%;
+    width: 50%;
+    padding: 10px;
+    margin: 1% 1%;
+    border: 5px solid black;
+    border-radius: 30px;
+    text-align: center;
+    font-style: italic;
+    font-family: fantasy;
+    color: black;
+
+}
+#boton_tengo:hover{
+    background-color: black;
+    color: white;
+
+}
+#box_imagenperfil{
+    margin: 2% 2%;
+    text-align: center;
+}
+#imagen_perfil{
+    height: 40%;
+    width: 40%;
+    text-align: center;
+}
+#box_im_perfil{
+    display: flex;
+    padding: 1% 1%;
+    height: 50%;
+    width: 100%;
+}
+#box_im_perfil img{
+    height: 300px;
+}
+#imagen_perfil_ev{
+    height: 100%;
+    width: 100%;
+}
+img{
+    width: 500px;
+}
+#parrafo{
+    font-size: 130%;
+    background: linear-gradient(to bottom,#dad9b5, #5c3434);
+    color: rgb(255, 255, 255);
+    padding: 2% 10%;
+    border-radius: 35px;
+}
+#subparrafo{
+    display: flex;
+
+}
+#subparrafo img{
+    width: 200px; /* Ancho de la imagen */
+    height: auto; /* Altura automática para mantener la proporción de aspecto */
+        margin-right: 10px; /* Margen derecho para separar la imagen del texto */
+}
+#subparrafo h1{
+    color: #80a352;
+}
+#subparrafo p{
+    color: blacka;
+}
+footer {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .pie_de_pagina {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+
+  }
+  
+  ul li {
+    display: inline;
+    margin:  0px;
+
+  }
+  
+  ul li a img {
+    width: 70px;
+  }
+  
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}    
+.container h1{
+    text-align: center;
+}
+.container article ul{
+    list-style: circle;
+    text-align:left;
+}
+.container{
+    width: 100%;
+    max-height: min-content;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color:#80a352;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.formulario{
+    width: 55%;
+    height: 150px;
+    background-color:antiquewhite;
+    border:2px solid black; 
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 300px;
+}
+/* Estilos para la búsqueda */
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color:#5c3434 ;
+    color: white;
+  }
+  
+  /* Estilos para las recetas */
+  .recipe {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  .ingrdientes{
+    display: flex;
+    align-items: center;
+  }
+  .container img{
+    width: 500px;
+    height: auto    ;
+    margin-right: 10px;
+
+  }
